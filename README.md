@@ -4,4 +4,4 @@
 ### Following now this very good tutorial in spanish:
 https://www.youtube.com/watch?v=gRXujAIFsLo
 
-Continue from minute 28 ;)
+Continue from minute 40 - Operators ;)
