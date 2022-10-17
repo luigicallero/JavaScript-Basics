@@ -1,7 +1,7 @@
 # JavaScript-Basics
 > Learning this great language from scratch to better support the web side of Blockchain world
 
-### Following now this very good tutorial in spanish:
+### Following now this very good tutorial in spanish from Blockdemy:
 https://www.youtube.com/watch?v=gRXujAIFsLo
 
 Continue from minute 40 - Operators ;)
