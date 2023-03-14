@@ -10,3 +10,11 @@ console.log(numbersFiltered)
 
 const petsFiltered = pets.filter( x => x.type == 'cat')
 console.log(petsFiltered)
+
+const cats = pets.filter (function (x) {
+    return x.type === 'cat'
+}) // --> Same as petsFiltered arrow function
+console.log (cats)
+
+
+// Filter method can create an array of the same or less lenght as the original array. Original array will not be modified, it will remain the same. A new array with the elements matching the filter criteria will be created.
