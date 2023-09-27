@@ -1,9 +1,12 @@
-# JavaScript-Basics
+# JavaScript Reference
 > Learning this great language from scratch to better support the web side of Blockchain world
 
 ## Description
 
-The code used in this repo is what I have learned from 
+The code used in this repo is what I have learned from
+### Usefull Reference Links:
+* https://www.codecademy.com/resources/docs/javascript
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 ### CodeAcademy: 
 https://www.codecademy.com/emodules/emod-nodejs-introduction/articles/javascript-for-node-js

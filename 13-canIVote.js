@@ -105,3 +105,13 @@ const finalGrade = (grade1, grade2, grade3) => {
   console.log(finalGrade(99, 101, 3)) // Should print 'You have entered an invalid grade.'
   console.log(finalGrade(99, 92, -1)) // Should print 'You have entered an invalid grade.'
   console.log(finalGrade(99, 92, 101)) // Should print 'You have entered an invalid grade.'
+
+
+// Write your function here:
+const reportingForDuty = (rank, lastname) => {
+  //return (rank + " "+ lastname + " reporting for duty!")
+  return `${rank} ${lastname} reporting for duty!`;
+};
+
+// Uncomment the line below when you're ready to try out your function
+console.log(reportingForDuty("Private", "Fido")); // Should return 'Private Fido reporting for duty!'
