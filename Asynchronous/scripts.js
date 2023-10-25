@@ -4,11 +4,10 @@ function A(){
 };
 
 // execute the function embeded after xxx miliseconds
-// this is a way to simulate a async function. This way function C is on hold until B is completed
 function B(callback){
     setTimeout(() =>{ 
         console.log("B");
-        callback();
+        callback(); // this is a way to execute an async function. This way function C is on hold until B is completed
     }, 2000) 
 };
 function C(){
