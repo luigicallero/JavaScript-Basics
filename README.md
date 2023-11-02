@@ -14,10 +14,16 @@ https://www.codecademy.com/emodules/emod-nodejs-introduction/articles/javascript
 ### Blockdemy (spanish tutorial):
 https://www.youtube.com/watch?v=gRXujAIFsLo
 
-### Now 
+---
+
+### In progress 
+* Async Javascript
+Learning fecth with Free fake API for testing and prototyping at https://jsonplaceholder.typicode.com/
+
 * CodeAcademy Tests:
 https://www.codecademy.com/emodules/emod-beginner-javascript-code-challenges/lessons/javascript-fundamentals-code-challenge/exercises/can-i-vote
 
+---
 
 ### Pending:
 * Full Course from freeCodeCamp:
