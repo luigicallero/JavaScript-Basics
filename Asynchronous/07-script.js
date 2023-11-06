@@ -1,22 +1,14 @@
 let el = document.getElementById("response");
 
-const doFirst = () =>{
-    return new Promise((resolve, reject) => {
-    //const promiseFunction = new Promise((resolve, reject) =>{
-        setTimeout(() => {
-            resolve(`<br/>I was first...`); // commented to test handling errors
-            //reject(`<br/>Error!!!!...`); // to test handling errors
-        }, 2000);    
+async function showData(){
+    fetch("https://jsonplaceholder.typicode.com/posts/5")
+    .then(data => {
+        return data.json();
+    })
+    .then(post =>{
+        console.log(post.title);
+        console.log(post.body);
+    }).catch(err =>{
+        console.log(err.message);
     });
-    //return promiseFunction; 
 };
-
-doFirst()
-.then(
-    resolve => {
-        el.innerHTML = resolve + `<br/>And I am second...`;
-    },
-    reject => {
-        el.innerHTML = "<p style='color:red;'>" + reject + `<br/>Check with Admin!!!`;
-    }
-)

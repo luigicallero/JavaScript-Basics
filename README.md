@@ -17,10 +17,13 @@ https://www.youtube.com/watch?v=gRXujAIFsLo
 ---
 
 ### In progress 
-* Async Javascript
-Learning fecth with Free fake API for testing and prototyping at https://jsonplaceholder.typicode.com/
+### Asynchronous JavaScript
+* Learning fecth with Free fake API for testing and prototyping at https://jsonplaceholder.typicode.com/
+* Post requests using json server:
+    * installing: npm install json-server
+    * executing: npx json-server --watch data/db.json --port 3030
 
-* CodeAcademy Tests:
+### CodeAcademy Tests:
 https://www.codecademy.com/emodules/emod-beginner-javascript-code-challenges/lessons/javascript-fundamentals-code-challenge/exercises/can-i-vote
 
 ---
