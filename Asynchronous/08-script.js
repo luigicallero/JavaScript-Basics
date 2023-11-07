@@ -7,6 +7,5 @@ const showData = async () => {
         el.innerHTML = dataJson.body;
     }catch(err){
         console.log(err);
-        log
     }
 };
